@@ -85,3 +85,27 @@
                 }
             });
         });
+
+  const userData = {};
+
+  function handleSubmit() {
+    const fullName = document.getElementById("fullName").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+
+    if (!fullName || !email || !phone) {
+      alert("Please fill all fields");
+      return;
+    }
+
+    userData.fullName = fullName;
+    userData.email = email;
+    userData.phone = phone;
+
+    console.log("Saved Data:", userData);
+
+    // Optional: clear inputs
+    document.getElementById("fullName").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("phone").value = "";
+}
