@@ -1121,6 +1121,8 @@ h6 {
 
     .nav-menu.active {
         left: 0;
+        border-radius: 0 0 120px 120px;
+        background: #c5c5c556;
     }
 
     .hero h1 {
