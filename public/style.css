@@ -1109,7 +1109,7 @@ h6 {
         left: -100%;
         top: 60px;
         flex-direction: column;
-        background: var(--white);
+        /* background: var(--white); */
         width: 100%;
         text-align: center;
         transition: var(--transition);
