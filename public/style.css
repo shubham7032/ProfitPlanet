@@ -136,7 +136,7 @@ h6 {
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--accent-color);
     font-weight: 600;
     font-size: 0.95rem;
     transition: var(--transition);
