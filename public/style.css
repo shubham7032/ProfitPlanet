@@ -1106,10 +1106,10 @@ h6 {
 
     .nav-menu {
         position: fixed;
-        left: -100%;
+        left: -108%;
         top: 60px;
         flex-direction: column;
-        /* background: var(--white); */
+        background: var(--white);
         width: 100%;
         text-align: center;
         transition: var(--transition);
